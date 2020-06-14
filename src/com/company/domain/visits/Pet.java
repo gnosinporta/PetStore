@@ -1,6 +1,8 @@
 package com.company.domain.visits;
 
+//la mascota tiene un nombre y un Owner
 public class Pet {
+
     private String name;
     private Owner owner;
 
@@ -13,6 +15,9 @@ public class Pet {
         return name;
     }
 
+    //metodos
+
+    //devuelve una String con el nombre del dueño
     public String getOwnerName() {
         return owner.getName();
     }
